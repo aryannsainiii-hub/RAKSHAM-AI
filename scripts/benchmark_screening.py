@@ -19,3 +19,6 @@ def main():
     print({'python':platform.python_version(),'platform':platform.platform(),'objects':a.objects,'pairs':pairs,'horizon_hours':a.hours,'step_minutes':a.step_minutes,'samples_per_pair':n+1,'elapsed_ms':round(elapsed,3),'model':'constant velocity coarse sampling; timing only'})
 
 if __name__=='__main__': main()
+
+
+# tt
