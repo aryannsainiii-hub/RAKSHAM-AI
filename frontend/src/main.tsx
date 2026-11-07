@@ -25,4 +25,3 @@ function PageHeading({title,sub,action}:any){return <section className="pageHead
 function StatusLine({name,value,good}:any){return <div className="statusLine"><span><i className={'dot '+(good?'':'warn')}/>{name}</span><b>{value}</b></div>}
 function Scene({objects}:any){return <div className="scene"><div className="sceneGrid"/><div className="orbit orbitOne"/><div className="orbit orbitTwo"/><div className="orbit orbitThree"/><div className="earth"><div className="earthShine"/><span>EARTH</span></div>{objects.map((o:Obj,i:number)=><div key={o.id} className={'sat sat'+i} title={o.id}><span/></div>)}<div className="sceneAxis">X <span>·</span> Y <span>·</span> illustrative frame</div><div className="sceneScale">NOT TO SCALE</div></div>}
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
-{/* <BM></BM> */}
