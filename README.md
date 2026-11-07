@@ -16,7 +16,7 @@ RAKSHAM is a research and educational prototype for investigating orbital close-
 
 This first implementation deliberately does not claim SGP4/OMM ingestion, full orbital propagation, PostgreSQL/Alembic, collision probability, authentication, or operational maneuver planning. See [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
-## Architecture
+## Architecturee
 
 ```mermaid
 flowchart LR
