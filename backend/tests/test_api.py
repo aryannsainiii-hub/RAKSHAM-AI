@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 from app.main import app, separation, OBJECTS, risk
 
 client=TestClient(app)
-
+# gh
 def test_health_and_objects():
     assert client.get('/health').json()['status']=='ok'
     assert len(client.get('/api/v1/objects').json()['items'])==3
